@@ -5,7 +5,7 @@ import labtop from '../../images/labtop.png';
 import sale from '../../images/sale.png';
 import clothe from '../../images/clothe.png';
 import pic from '../../images/pic.png';
-import CategoryCard from './Category/CategoryCard';
+import CategoryCard from '../Category/CategoryCard';
 import SubTitle from '../Utility/SubTitle';
 
 const HomeCategory = () => {
