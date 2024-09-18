@@ -4,6 +4,8 @@ import Slider from '../../Components/Home/Slider'
 import HomeCategory from '../../Components/Home/HomeCategory'
 import CardProductsContainer from '../../Components/Products/CardProductContainer'
 import DiscountSection from '../../Components/Home/DiscountSection'
+import BrandFeatured from '../../Components/Brand/BrandFeatured'
+import Footer from '../../Components/Utility/Footer'
 
 
 const HomePage = () => {
@@ -15,6 +17,8 @@ const HomePage = () => {
       <CardProductsContainer title="الأكثر مبيعا" btntitle="المزيد" />
       <DiscountSection />
       <CardProductsContainer title="أحدث الأزياء" btntitle="المزيد" />
+      <BrandFeatured title="اشهر الماركات" btntitle="المزيد" />
+      <Footer />
     </div>
   )
 }
